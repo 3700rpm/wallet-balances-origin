@@ -1,6 +1,6 @@
 import { Connection, LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
 
-const walletsTemp = ['6s3qFETH7kfQupco4Df2owU8SUhmjz8c9HnKa9hRAzNo', 'MfDuWeqSHEqTFVYZ7LoexgAK9dxk7cy4DFJWjWMGVWa']
+const walletsTemp = ['CyvSnFw4SiceFDm9xgKBTM8Q2PcAknadQktrUZDTZfev', 'kUWhjvgBgQZPLLiZoBheAwzJTaoPF5wZXDr4ExwaqgJ', '8GVPkjPVK3TpnwvYJJk5t2D911qPr3RE7Wykam2SjMwD', 'BHzUekk627CpyWqUWm5VrCmBcmmow6DU1vvBepMxxcDN', 'KingqCdB2BA1tG8dixJq2PyXk8W7W4cQkTrYcWfPT19', 'BURNAavVkWUnQG17BGKjyGiJLrSAyAcq15ZJU27VofmU']
 const tempRPC = [{
     url: 'https://mainnet.helius-rpc.com/?api-key=12d4921b-a6ee-4fa7-8179-59e9ba528f8d',
     wss: 'wss://mainnet.helius-rpc.com/?api-key=12d4921b-a6ee-4fa7-8179-59e9ba528f8d'
