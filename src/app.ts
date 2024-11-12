@@ -3,8 +3,11 @@ import http from 'http'
 import router from './routes';
 import ws from 'ws';
 import { iniWebsocket } from './websocket';
+import cors from 'cors'; // Import cors
 
 const app = express();
+
+app.use(cors());
 
 app.use(router);
 
